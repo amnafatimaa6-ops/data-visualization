@@ -11,7 +11,7 @@ The analysis follows a structured and reproducible workflow suitable for academi
 ## Dataset
 - **Source:** GitHub (loaded dynamically via raw URL)  
 - **Format:** CSV  
-- **Description:** The dataset contains behavioural and demographic variables used to evaluate statistical hypotheses.
+- **Description:** The dataset contains behavioural and demographic variables used to evaluate statistical hypotheses.  
 
 The dataset is downloaded at runtime to ensure reproducibility and to avoid local file dependency issues.
 
@@ -21,7 +21,7 @@ The dataset is downloaded at runtime to ensure reproducibility and to avoid loca
 The analysis is guided by clearly defined null and alternative hypotheses:
 
 - **H₀ (Null Hypothesis):** There is no significant difference or association between selected variables.  
-- **H₁ (Alternative Hypothesis):** A statistically significant difference or association exists.
+- **H₁ (Alternative Hypothesis):** A statistically significant difference or association exists.  
 
 Each hypothesis is tested using an appropriate statistical method.
 
@@ -54,5 +54,4 @@ Before applying hypothesis tests, the following assumptions are considered:
 - Pandas  
 - NumPy  
 - SciPy  
-
 
